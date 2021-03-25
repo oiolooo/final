@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  font-family: Trebuchet MS, Helvetica;
+}
+
+
+#top {
+  width: 100%;
+  background-image: url(https://images.wallpaperscraft.ru/image/knigi_temnyj_polka_159441_1920x1080.jpg);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-right: auto;
+  color: #fff;
+  font-size: 1.3em;
+
+}
+
+@media (min-width: 1001px) {
+  #top {
+    font-size: 3em;
+    height: 1000px;}
+  }
+
+ #toph1 {
+  position: relative;
+  left: 50px;
+  top: 50px;
+
+}
+#text1{
+  position: relative;
+  top: 300px;
+  font-size:140px;
+}
+#main {
+  float: left;
+  background-color: #252525;
+  border-top: 2px solid silver;
+  color: white;
+  font-size: 1.3em;
+}
+
+@media (min-width: 1401px) {
+  #main {
+    padding: 100px 20%;
+    width: 100%;
+  }
+}
+#main h2 {font-size: 3em}
+#main span {color: white}
+
+#overview {
+  float: left;
+  background-image: url(https://lh3.googleusercontent.com/proxy/3vXUNVF7A74C-Oi1KUkc509aa3xuR9GsiHw_xvE9EKP1c2DyWD0rS8eMnxujGF86RYvoww2JehNj7NZev3yZSBMPFJeOHOCbi1Q7t_c6VSa5aUvKi59AYcUTUpPUFOejCchg_QLVfw);
+
+  background-blend-mode: multiply;
+  background-color: #403f40;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  color:white;
+}
+#overview h2 {font-size: 4em}
+#overview h4 {color: white; font-size: 1.5em}
+@media (min-width: 561px) {
+  #overview h2 {font-size: 4em}
+}
+#overview .img {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  margin-top: 50px;
+}
+#overview .img:nth-child(odd) {
+  margin-left: 18%;
+}
+#overview img {
+  background: #fafafa;
+  padding: 5px;
+  border: 2px solid silver;
+  float: left;
+  width: 100%;
+  max-width: 500px;
+}
+#overview span {
+  float: left;
+  width: 100%;
+  font-size: 2em;
+  margin-top: 10px;
+}
+#jumbotron text-center{
+  background-color: black;
+
+}
+#www {
+  top: 50px;
+  font-size: 30px;
+  float: right;
+}
+
+
+
+.container{
+
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    idth: 100%;
+
+}
+
+.question {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.answer {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    font-size:20px;
+}
+
+.answer li {
+    background: #f1f1f1;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.answer li:hover {
+    background: #cecece;
+    font-weight: bold;
+}
+
+.answer li:active{
+    background: #8b8b8b
+}
+
+.result {
+    color: white;
+    padding: 30px 0;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.result-img {
+    max-width: 600px;
+    display: block;
+    margin: 10px auto;
+}
+
+.reload-button {
+    display: block;
+    margin: 20px auto;
+    background: #c0c0c0;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 25px;
+    min-width: 200px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.reload-button:hover {
+    background: #acacac;
+}
+
+.all1 {
+  background-image: url(https://img3.akspic.ru/originals/9/3/4/4/3/134439-naushniki-tekst-obrazovanie-avtor-marketing-1920x1080.jpg);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  padding: 100px 0;
+  width: 100%;
+
+}
+.gf{
+  background-color: black;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  width: 100%;
+
+}
+
+#zatemnenie {
+   background: rgba(102, 102, 102, 0.5);
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: none;
+ }
+ #okno {
+   width: 300px;
+   height: 300px;
+   text-align: center;
+   padding: 15px;
+   border: 3px solid #0000cc;
+   border-radius: 10px;
+   color: #0000cc;
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   margin: auto;
+   background: #fff;
+ }
+ #zatemnenie:target {display: block;}
+ .close {
+   display: inline-block;
+   border: 1px solid #0000cc;
+   color: #0000cc;
+   padding: 0 12px;
+   margin: 10px;
+   text-decoration: none;
+   background: #f2f2f2;
+   font-size: 14pt;
+   cursor:pointer;
+ }
+ .close:hover {background: #e6e6ff;}
+#myCarousel{
+margin-top: 400px;
+}
+
+
+#faq {
+  background-color: #252525;
+
+  width: 100%;
+  float: left;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+@media (min-width: 801px) {
+  #faq div {
+    width: 25%;
+    margin-left: 6%;
+    float: left;
+  }
+}
+
+@media (max-width: 800px) {
+  #faq div {
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+  }
+}
+
+#faq .title {
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 2.2em;
+}
+
+#faq .heading {
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#faq p {
+  font-family: Arimo, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: white;
+  font-size: 0.95em;
+  margin-bottom: 40px;
+}
+
+}
+#faq .img1 {
+position: relative;
+
+}
